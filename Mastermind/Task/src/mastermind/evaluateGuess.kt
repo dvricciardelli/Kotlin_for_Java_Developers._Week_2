@@ -2,42 +2,35 @@ package mastermind
 
 data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
 
-fun evaluateGuess(secret: String, guess: String): Evaluation {
+fun evaluateGuess(secretString: String, guessString: String): Evaluation {
+    val wrong = mutableMapOf<Int, Char>()
+    val right = mutableMapOf<Int, Char>()
+    val wrongPending = mutableMapOf<Int, Char>()
 
-    var right = 0
-    var wrong = 0
+    for (guess in guessString.withIndex()){
+        for (secret in secretString.withIndex()){
 
-    var mapSecret = secret.groupingBy{ e -> e}.eachCount().toMutableMap()
-    var mapGuess = guess.groupingBy{ e -> e}.eachCount().toMutableMap()
-
-
-    for ((index, value) in secret.withIndex()) {
-        if (guess.contains(value)){
-            if(value.equals(guess[index])) {
-                right++
-                var x = mapSecret.get(value)?.toInt()?:0
-                var y = mapGuess.get(value)?.toInt()?:0
-                x = x - 1
-                y = y - 1
-                mapSecret.put(value, x)
-                mapGuess.put(value, y)
+            if(guess == secret){
+                if(wrongPending[guess.index] == guess.value){
+                    wrongPending.clear()
+                }
+                if(wrong[guess.index] == guess.value){
+                    wrong.remove(guess.index)
+                }
+                right.put(guess.index, guess.value)
+                break
+            } else if (guess.value == secret.value){
+                if(wrongPending.isEmpty()){
+                    wrongPending.put(guess.index, guess.value)
+                }
             }
+
+        }
+        if (!wrongPending.isEmpty()){
+            wrong.putAll(wrongPending)
+            wrongPending.clear()
         }
     }
-
-    for(value in secret)
-    {
-        if(guess.contains(value) && (mapGuess.get(value)?.toInt()?:0 != 0 && mapSecret.get(value)?.toInt()?:0 != 0)){
-            wrong++
-            var x = mapSecret.get(value)?.toInt()?:0
-            var y = mapGuess.get(value)?.toInt()?:0
-            x = x - 1
-            y = y - 1
-            mapSecret.put(value, x)
-            mapGuess.put(value, y)
-        }
-    }
-
-    val result = Evaluation(right,wrong)
+    val result = Evaluation(right.count(),wrong.count())
     return result
 }

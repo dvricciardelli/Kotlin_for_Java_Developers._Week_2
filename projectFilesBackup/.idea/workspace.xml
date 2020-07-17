@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad3eb092-beac-42c6-867c-1c31a3f42af7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.save.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mastermind/Task/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Mastermind/Task/task-info.yaml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\dricciardelli\AndroidStudioProjects\Kotlin for Java Developers. Week 2" />
+        <option value="C:\Users\dricciardelli\AndroidStudioProjects\Kotlin for Java Developers. Week 2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eMpKFuN4eZZuTt22JaAptOPEk2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mastermind/Task/src/mastermind" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dricciardelli\AndroidStudioProjects\Kotlin for Java Developers. Week 2\Mastermind\Task\src\mastermind" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestMastermindRepeatedLetters">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMastermindDifferentLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mastermind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mastermind" />
+      <option name="MAIN_CLASS_NAME" value="mastermind.TestMastermindDifferentLetters" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMastermindRepeatedLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mastermind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mastermind" />
+      <option name="MAIN_CLASS_NAME" value="mastermind.TestMastermindRepeatedLetters" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMastermindRepeatedLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mastermind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mastermind" />
+      <option name="MAIN_CLASS_NAME" value="mastermind.TestMastermindRepeatedLetters" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMastermindRepeatedLetters.test01Sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mastermind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mastermind" />
+      <option name="MAIN_CLASS_NAME" value="mastermind.TestMastermindRepeatedLetters" />
+      <option name="METHOD_NAME" value="test01Sample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMastermindRepeatedLetters.test04Sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mastermind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mastermind" />
+      <option name="MAIN_CLASS_NAME" value="mastermind.TestMastermindRepeatedLetters" />
+      <option name="METHOD_NAME" value="test04Sample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMastermindRepeatedLetters" />
+        <item itemvalue="JUnit.TestMastermindDifferentLetters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad3eb092-beac-42c6-867c-1c31a3f42af7" name="Default Changelist" comment="" />
+      <created>1594141250561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594141250561</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
